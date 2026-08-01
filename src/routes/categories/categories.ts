@@ -74,7 +74,7 @@ categoriesRouter.delete("/:id", async (req, res) => {
 
     if (items.length > 0) {
       return res.status(400).json({
-        error: "Error. Can't delete if this item hase FK connections!",
+        error: "Error. Can't delete if this item has FK connections!",
       });
     }
 
