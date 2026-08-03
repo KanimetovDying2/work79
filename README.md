@@ -1,4 +1,4 @@
-1: SQL конфиг моей БД является init.sql в /api
+1: SQL конфиг является init.sql в /api
 
 2: Переименуйте .env.example в .env. 
 В env заполнить:
